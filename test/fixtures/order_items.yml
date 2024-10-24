@@ -1,0 +1,20 @@
+one_green_tea:
+  order: order_one
+  product: green_tea
+  quantity: 1
+  unit_price: 3.11
+  subtotal: 3.11
+
+two_strawberries:
+  order: order_one
+  product: strawberries
+  quantity: 2
+  unit_price: 5.00
+  subtotal: 10.00
+
+one_coffee:
+  order: order_one
+  product: coffee
+  quantity: 1
+  unit_price: 11.23
+  subtotal: 11.23
