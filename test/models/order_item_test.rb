@@ -2,10 +2,10 @@ require "test_helper"
 
 class OrderItemTest < ActiveSupport::TestCase
   def setup
-    puts OrderItem.all.inspect()
-    @green_tea_item = order_items(:one_green_tea)
-    @coffe_item = order_items(:one_coffee)
-    @strawberries_item = order_items(:two_strawberries)
+    # puts OrderItem.all.inspect()
+    @green_tea_item = order_items(:green_tea)
+    @coffe_item = order_items(:coffee)
+    @strawberries_item = order_items(:strawberries)
   end
   test "should return correct subtotal" do
     green_tea_subtotal = @green_tea_item.calculate_subtotal()
