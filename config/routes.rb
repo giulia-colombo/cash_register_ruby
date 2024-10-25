@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
 
   # Defines the root path route ("/")
-  root "orders#new"
+  root "home#index"
   # Order-related routes
   resources :orders, only: [ :create, :show ]
   # Route for cart form (screen 2)
