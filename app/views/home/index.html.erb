@@ -1,6 +1,7 @@
-<h1>Cash register</h1>
+<h1>Welcome</h1>
 <p>Find me in app/views/home/index.html.erb</p>
+<p>Please click below to start a new order.</p>
 
 <p>
-    <a href="<%= new_order_path %>"> Start an order</a>
-</p>
+    <%= button_to 'Start order', orders_path, method: :post %>
+</p> 
